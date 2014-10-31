@@ -17,7 +17,7 @@ a:hover {text-decoration: none;}
 .header li a{color: #000000;font-size: 17px;font-weight: bold;padding: 19px}
 .header li a:hover{text-decoration: none;}
 .header li:hover ul {
-    display: block;
+    display: inline-flex;
     left: -17px;
     text-align: center;
 }
@@ -35,10 +35,9 @@ a:hover {text-decoration: none;}
 
 
 
-
 /*********button******/
 a .button {text-decoration: none !important;
-    font-size: 16px;
+
     margin: 25px 0;
     background: #00a1e2;
     padding: 10px 0;    border-radius: 5px;
@@ -49,22 +48,20 @@ a:hover .button {background: #ffffff;color: #00a1e2;text-decoration: none !impor
 .content h2{font-size: 40px; font-weight: bold}
 .content p{font-size:29px; font-weight: lighter;color: #3e3e3e}
 
-
-
+.small-button {font-size: 18px!important;}
 
 /*****large*****/
 a .large {
     margin: 12px 11px 12px 49px!important;
-    padding: 22px;font-size: 16px
+    padding: 22px;font-size: 25px
 }
-
 
 
 /*******white****/
 a .white {background: #ffffff !important;margin: 12px 0;}
 a:hover .white {background: #00a1e2 !important;}
-a .white p{font-weight: bold;color: #00a1e2 !important;font-size: 16px;margin: 0;
-    padding: 10px 0;}
+a .white p{font-weight: bold;color: #00a1e2 !important;font-size: 25px !important;margin: 0;
+    padding: 12px 0;}
 a:hover .white p{color: #ffffff !important;}
 
 /*********thumbnail************/
@@ -210,9 +207,11 @@ small {font-size: 15px !important;font-style: italic ;}
 
 
 
-@media (max-width:960px) { .heading li {display: block;text-align: center;}
+@media (max-width:1200px) { .heading li {display: block;text-align: center;padding: 10px}
+ .heading li:hover ul {display: inline-flex;text-align: center;}
  .heading ul {float: none}
- .heading hr{width: 100% !important;}
+    .heading li h2{margin: 0;}
+    .heading hr{width: 100% !important;margin: 0 0 17px 0;}
     .video img{width: 100%}
     .post-box {width: 100%;}
     .border-right {border-right: none;height: auto;margin: 10px}
@@ -224,11 +223,21 @@ small {font-size: 15px !important;font-style: italic ;}
     .ser-widgets p{padding: 0;margin: 0;text-align: center}
     a .large {
         margin: 12px 50px 12px 45px!important}
+    .social-icon2 ul{display: inline-flex}
+    .social-icon2 li {
+        padding: 0 25px;
+    }
+    .pagination {
+        text-align: center;
+        margin: 25px 0 0 0;}
 
 
 
 
 }
+
+
+
 
 
 
