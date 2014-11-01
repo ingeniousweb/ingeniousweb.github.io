@@ -18,13 +18,17 @@ a:hover {text-decoration: none;}
 .header li a:hover{text-decoration: none;}
 .header li:hover ul {
     display: inline-flex;
-    left: -17px;
+    left: -190px;padding: 0 10px;
     text-align: center;
 }
+.dropdown-menu > li > a:hover{background: none}
 .header li:hover{background: url("images/hover.png")no-repeat 45% 100%;}
 .right-pad {padding-right: 0}
 .header ul li{margin: 15px 0;}
+.header img {margin: 23px 0 0 0;}
 
+.header li a span img{margin: 0 !important;}
+.header .icon-menu ul{display:inline-flex;}
 /**********nav drop-down*****/
 .open > .dropdown-menu {
     display: block;
@@ -45,15 +49,17 @@ a .button {text-decoration: none !important;
 a .two {font-size: 20px;margin: 10px 0;}
 a:hover .button {background: #ffffff;color: #00a1e2;text-decoration: none !important;}
 /******content******/
-.content h2{font-size: 40px; font-weight: bold}
+.content h2{font-size: 40px; font-weight: bold;letter-spacing: -1.8px;}
+.content h3{font-size: 32px; font-weight: lighter;margin: 10px}
 .content p{font-size:29px; font-weight: lighter;color: #3e3e3e}
 
 .small-button {font-size: 18px!important;}
 
 /*****large*****/
 a .large {
-    margin: 12px 11px 12px 49px!important;
-    padding: 22px;font-size: 25px
+    /*margin: 12px 11px 12px 49px!important;*/
+    padding: 22px;font-size: 25px;
+margin: 12px 45px 12px 25px!important;
 }
 
 
@@ -71,7 +77,7 @@ a:hover .white p{color: #ffffff !important;}
 
 /********social-icon*********/
 .social-icon2 {border-top:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;margin: 30px 0;padding: 14px }
-.social-icon2 .social-icon {border-right: none !important;}
+.social-icon2 .social-icon {border-right: none !important;padding: 0}
 .social-icon2 ul{margin-bottom: 0px;}
 .social-icon2 li{padding: 0 128px;}
 .social-icon2 li a i{font-size: 27px !important;color: #b4b4b5;font-weight: bold;}
@@ -80,6 +86,7 @@ a:hover .white p{color: #ffffff !important;}
 /********footer************/
 .footer {background: #3d3d3e;padding: 12px 10px 5px 10px}
 .footer p{font-size: 19px;color: #ffffff;}
+.footer span{margin: 0 4% }
 
 
 
@@ -99,7 +106,9 @@ a:hover .white p{color: #ffffff !important;}
 .heading li hr{border-top: 1px solid #0fa2e0;width: 70px;margin: 9px 0;}
 .heading li {padding: 0;}
 .heading li:last-child hr{border-top: 1px solid #0fa2e0;width: 776px;margin: 9px 0;}
-
+.icon-menu ul {float: none;list-style: none;}
+.icon-menu li a{padding: 5px;margin: 0}
+.icon-menu li {margin: 0 !important;}
 
 .line {
     float: right;
@@ -221,15 +230,20 @@ small {font-size: 15px !important;font-style: italic ;}
     .care-widgets {padding: 0 20px;text-align: center}
     .ser-widgets h3{text-align: center}
     .ser-widgets p{padding: 0;margin: 0;text-align: center}
-    a .large {
-        margin: 12px 50px 12px 45px!important}
+    a .large {margin: 12px 50px 12px 45px!important;font-size: 13px}
+    a .white p{font-size: 19px !important;}
+    a .white {padding: 0;}
     .social-icon2 ul{display: inline-flex}
-    .social-icon2 li {
-        padding: 0 25px;
-    }
-    .pagination {
-        text-align: center;
-        margin: 25px 0 0 0;}
+    .social-icon2 li {padding: 0 25px;}
+    .pagination {text-align: center;margin: 25px 0 0 0;}
+    .content h2{font-size: 25px;}
+    .content h3{font-size: 18px;}
+    .footer p {font-size: 15px !important;}
+    .icon-menu ul{margin: 0;padding: 0}
+    .post-pagination ul{text-align: center}
+
+
+
 
 
 
