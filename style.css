@@ -267,7 +267,12 @@ small {font-size: 15px !important;font-style: italic ;}
     .footer p {font-size: 15px !important;}
     .icon-menu ul{margin: 0;padding: 0}
     .post-pagination ul{text-align: center}
-        .small-button {padding: 22px !important;}
+    .small-button {padding: 22px !important;}
+    .line {margin-bottom: 18px;}
+    .line img{padding-top: 0}
+    a .two {padding: 22px 0;}
+    .headline2 h3{text-align: center;margin: 0 ; }
+    .headline-image {text-align: center;margin: 25px 0}
 
 }
 
