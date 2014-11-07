@@ -275,7 +275,10 @@ small {font-size: 15px !important;font-style: italic ;}
 
 
 
-@media (min-width:680px) and (max-width:1200px){ .content h2{font-size: 30px!important;}
+@media (min-width:680px) and (max-width:1200px){
+    .content h2{font-size: 30px!important;}
+    .video img{width: 100%}
+
 
 
 
