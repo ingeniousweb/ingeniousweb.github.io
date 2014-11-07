@@ -243,7 +243,6 @@ small {font-size: 15px !important;font-style: italic ;}
  .heading ul {float: none}
     .heading li h2{margin: 0;}
     .icon-menu li a{padding: 5px 5px 0px 0px;}
-
     .heading hr{width: 100% !important;margin: 0 0 17px 0;}
     .video img{width: 100%}
     .post-box {width: 100%;}
@@ -261,7 +260,7 @@ small {font-size: 15px !important;font-style: italic ;}
     a .white p{font-size: 14px!important;padding: 22px 15px !important;}
     .social-icon2 {margin: 6px 0 30px 0;}
     .social-icon2 ul{display: inline-flex}
-    .social-icon2 li {padding: 0 25px;}
+    .social-icon2 li {padding: 0 25px !important;}
     .pagination {text-align: center;margin: 25px 0 0 0;}
     .content h2{font-size: 25px;}
     .content h3{font-size: 18px;}
