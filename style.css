@@ -242,6 +242,7 @@ small {font-size: 15px !important;font-style: italic ;}
  .heading ul {float: none}
     .heading li h2{margin: 0;}
     .icon-menu li a{padding: 5px 5px 0px 0px;}
+
     .heading hr{width: 100% !important;margin: 0 0 17px 0;}
     .video img{width: 100%}
     .post-box {width: 100%;}
@@ -252,9 +253,10 @@ small {font-size: 15px !important;font-style: italic ;}
     .care-widgets {padding: 0 20px;text-align: center}
     .ser-widgets h3{text-align: center}
     .ser-widgets p{padding: 0;margin: 0;text-align: center}
-    a .large {margin: 12px 50px 12px 45px!important;font-size: 13px}
-    a .white p{font-size: 19px !important;}
-    a .white {padding: 0;}
+    /***********button**********/
+    .button {font-size: 14px!important;}
+    a .large {margin: 12px 14px 13px 13px!important;}
+    a .white {padding: 0;margin: 10px 14px;}
     .social-icon2 ul{display: inline-flex}
     .social-icon2 li {padding: 0 25px;}
     .pagination {text-align: center;margin: 25px 0 0 0;}
@@ -263,6 +265,8 @@ small {font-size: 15px !important;font-style: italic ;}
     .footer p {font-size: 15px !important;}
     .icon-menu ul{margin: 0;padding: 0}
     .post-pagination ul{text-align: center}
+    .video img{width: 100%}
+
 
 
 
