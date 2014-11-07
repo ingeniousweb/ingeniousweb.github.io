@@ -236,8 +236,8 @@ small {font-size: 15px !important;font-style: italic ;}
 
 
 
-
-@media (max-width:1200px) { .heading li {display: block;text-align: center;padding: 10px}
+/********************mobile iphone********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .heading li {display: block;text-align: center;padding: 10px}
  .heading li:hover ul {display: inline-flex;text-align: center;}
  .heading ul {float: none}
     .heading li h2{margin: 0;}
@@ -266,11 +266,13 @@ small {font-size: 15px !important;font-style: italic ;}
     .footer p {font-size: 15px !important;}
     .icon-menu ul{margin: 0;padding: 0}
     .post-pagination ul{text-align: center}
+}
 
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-
-
+    .heading ul{display: block;}
 
 
 
