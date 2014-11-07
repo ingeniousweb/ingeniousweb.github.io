@@ -237,7 +237,7 @@ small {font-size: 15px !important;font-style: italic ;}
 
 
 /********************mobile iphone********************************/
-@media (max-width: 1200px) {
+    @media (max-width: 768px) {
     .heading li {display: block;text-align: center;padding: 10px}
  .heading li:hover ul {display: inline-flex;text-align: center;}
  .heading ul {float: none}
