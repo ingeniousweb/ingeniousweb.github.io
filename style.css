@@ -237,7 +237,7 @@ small {font-size: 15px !important;font-style: italic ;}
 
 
 
-@media (max-width:570px) { .heading li {display: block;text-align: center;padding: 10px}
+@media (max-width:1200px) { .heading li {display: block;text-align: center;padding: 10px}
  .heading li:hover ul {display: inline-flex;text-align: center;}
  .heading ul {float: none}
     .heading li h2{margin: 0;}
@@ -254,7 +254,7 @@ small {font-size: 15px !important;font-style: italic ;}
     .ser-widgets h3{text-align: center}
     .ser-widgets p{padding: 0;margin: 0;text-align: center}
     /***********button**********/
-    .button {font-size: 14px!important;}
+    .button {font-size: 14px!important;margin: 10px 14px;}
     a .large {margin: 12px 14px 13px 13px!important;}
     a .white {padding: 0;margin: 10px 14px;}
     a .white p{font-size: 14px!important;}
