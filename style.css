@@ -273,6 +273,23 @@ small {font-size: 15px !important;font-style: italic ;}
 }
 
 
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width:  0px) and (max-width: 240px){
+
+    .social-icon2 li {
+        padding: 0 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
 /* iPads (portrait and landscape) ----------- */
 @media (min-width: 769px) and (max-width: 1150px)  {
         .right-pad {padding: 0px 12px 0 0px;}
