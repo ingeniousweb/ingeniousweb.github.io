@@ -271,13 +271,32 @@ small {font-size: 15px !important;font-style: italic ;}
 
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
+@media (min-width: 769px) and (max-width: 1150px)  {
+        .right-pad {padding: 0px 12px 0 0px;}
+    .header li a{padding: 19px 10px;}
+    .video img{width: 100%}
+    .content h2{font-size: 35px !IMPORTANT;}
+    .content h3{font-size: 27px !important;}
 
-    .header{background: #398439 !important;}
+    /***********button**********/
+    .button {font-size: 15px!important;margin: 25px 0px!important;;}
+    a .large {margin: 10px 14px 10px 13px!important;font-size: 20px !important;padding: 19px 0px;}
 
-
-
+    a .white {padding: 0;width: 662px;
+        margin: 10px 0 !important;}
+    a .white p{font-size: 20px!important;padding: 19px 15px !important;}
+    .social-icon2 ul{display: inline-flex;padding: 0 85px 0 0px;}
+    .social-icon2 li {padding: 0 87px;}
+    .pagination {text-align: center;margin: 25px 0 0 0;}
+    .content h2{font-size: 25px;}
+    .content h3{font-size: 18px;}
+    .footer p {font-size: 15px !important;}
+    .icon-menu ul{margin: 0;padding: 0}
+    .post-pagination ul{text-align: center}
 }
+
+
+
 
 
 
