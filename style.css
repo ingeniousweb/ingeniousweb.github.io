@@ -273,7 +273,7 @@ small {font-size: 15px !important;font-style: italic ;}
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
 
-    .header ul{background: #398439 !important;}
+    .header{background: #398439 !important;}
 
 
 
