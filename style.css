@@ -323,8 +323,8 @@ small {font-size: 15px !important;font-style: italic ;}
     .footer p {font-size: 15px !important;}
     .icon-menu ul{margin: 0;padding: 0}
     .post-pagination ul{text-align: center}
-    .headline-image {width: none;}
-    .headline-image:hover {width: none;}
+    .headline-image {width: none !important;}
+    .headline-image:hover {width: none !important;}
 }
 
 
