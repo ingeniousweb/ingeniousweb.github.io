@@ -254,6 +254,7 @@ small {font-size: 15px !important;font-style: italic ;}
     .headline-image {width: 100%}
     .headline-image:hover {width: 100%}
     .care-widgets {padding: 0 20px;text-align: center}
+        .ser-widgets {margin: 15px 0;}
     .ser-widgets h3{text-align: center}
     .ser-widgets p{padding: 0;margin: 0;text-align: center}
         .ser-widgets li a span {float: left;}
