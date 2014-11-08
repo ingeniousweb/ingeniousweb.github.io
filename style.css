@@ -238,13 +238,14 @@ small {font-size: 15px !important;font-style: italic ;}
 
 /********************mobile iphone********************************/
     @media (max-width: 768px) {
-    .heading li {display: block;text-align: center;padding: 10px}
+.heading li {display: block;text-align: center;padding: 10px}
  .heading li:hover ul {display: inline-flex;text-align: center;}
  .heading ul {float: none}
     .heading li h2{margin: 0;}
     .icon-menu li a{padding: 5px 5px 0px 0px;}
     .heading hr{width: 100% !important;margin: 0 0 17px 0;}
-    .video img{width: 100%}
+        .content h2{margin: 0px 0 12px 0 !important;}
+    .video img{width: 100%;margin: 10px 0 0 0!important;}
     .post-box {width: 100%;}
     .border-right {border-right: none;height: auto;margin: 10px}
     .pos-row {margin-bottom: 10px}
