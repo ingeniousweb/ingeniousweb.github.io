@@ -246,7 +246,7 @@ small {font-size: 15px !important;font-style: italic ;}
   .icon-menu li a{padding: 5px 5px 0px 0px;}
    .heading hr{width: 100% !important;margin: 21px 0px !important;}
    .content h2{margin  : 0px 0 12px 0 !important;}
-    .heading p {margin: 40px 0;text-align: center;}
+    .heading p {margin: 40px 0 18px 0;}
     .video img{width: 100%;margin: 10px 0 0 0!important;}
     .post-box {width: 100%;}
     .border-right {border-right: none;height: auto;margin: 10px}
@@ -258,6 +258,7 @@ small {font-size: 15px !important;font-style: italic ;}
     .ser-widgets h3{text-align: center}
     .ser-widgets p{padding: 0;margin: 0;text-align: center}
         .ser-widgets li a span {float: left;}
+        .ser-widgets ul{text-align: left;}
     /***********button**********/
     .button {font-size: 14px!important;margin: 25px 14px!important;}
     a .large {margin: 25px 14px 13px 13px!important;}
