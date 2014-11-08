@@ -246,7 +246,7 @@ small {font-size: 15px !important;font-style: italic ;}
   .icon-menu li a{padding: 5px 5px 0px 0px;}
    .heading hr{width: 100% !important;margin: 21px 0px !important;}
    .content h2{margin  : 0px 0 12px 0 !important;}
-    .heading p {margin: 40px 0 18px 0;}
+    .heading p {margin: 40px 0 18px 0;text-align: center;}
     .video img{width: 100%;margin: 10px 0 0 0!important;}
     .post-box {width: 100%;}
     .border-right {border-right: none;height: auto;margin: 10px}
@@ -323,6 +323,7 @@ small {font-size: 15px !important;font-style: italic ;}
     .footer p {font-size: 15px !important;}
     .icon-menu ul{margin: 0;padding: 0}
     .post-pagination ul{text-align: center}
+    .headline-image {text-align: center;}
 }
 
 
